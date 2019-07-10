@@ -22,10 +22,9 @@
 
 </head>
 <body style="font-family:'Indie Flower', cursive;">
-<select name="Select Language" class="selection">
-<option>Select Language</option>
+<select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" name="Select Language" class="selection">
 <option>English</option>
-<option>Español</option>
+<option value=https://www.elespanol.com/>Español</option>
 </select>    
     
 <center><img id="me" alt="Ximena"role="Banner" src="https://logos.textgiraffe.com/logos/logo-name/ximena-designstyle-pastel-m.png" height="300"/>
